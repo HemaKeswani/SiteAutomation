@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-15T20:29:16 IST" name="Suite" finished-at="2021-01-15T20:29:59 IST" duration-ms="42415">
+    <groups>
+    </groups>
+    <test started-at="2021-01-15T20:29:16 IST" name="Test" finished-at="2021-01-15T20:29:59 IST" duration-ms="42415">
+      <class name="Amazon.E2EProject.HomePageTest">
+        <test-method is-config="true" signature="Initialise()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:16 IST" name="Initialise" finished-at="2021-01-15T20:29:24 IST" duration-ms="7415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialise -->
+        <test-method signature="search()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:24 IST" name="search" finished-at="2021-01-15T20:29:26 IST" duration-ms="2245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="applyFilter()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:26 IST" name="applyFilter" finished-at="2021-01-15T20:29:31 IST" depends-on-methods="Amazon.E2EProject.HomePageTest.search" duration-ms="4225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilter -->
+        <test-method signature="select()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:31 IST" name="select" finished-at="2021-01-15T20:29:31 IST" depends-on-methods="Amazon.E2EProject.HomePageTest.applyFilter" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="Window()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:32 IST" name="Window" finished-at="2021-01-15T20:29:52 IST" depends-on-methods="Amazon.E2EProject.HomePageTest.select" duration-ms="19571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Window -->
+        <test-method signature="checkout()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:53 IST" name="checkout" finished-at="2021-01-15T20:29:56 IST" depends-on-methods="Amazon.E2EProject.HomePageTest.Window" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="log()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:56 IST" name="log" finished-at="2021-01-15T20:29:58 IST" depends-on-methods="Amazon.E2EProject.HomePageTest.Window" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Amazon.E2EProject.HomePageTest@61e94def]" started-at="2021-01-15T20:29:58 IST" name="afterTest" finished-at="2021-01-15T20:29:59 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Amazon.E2EProject.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

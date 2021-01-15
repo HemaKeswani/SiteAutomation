@@ -1,0 +1,8 @@
+21:58:47.229 [main] INFO  resources.Base - driver is initialised
+21:58:51.646 [main] INFO  resources.Base - Amazon home page is opened
+21:59:10.890 [main] INFO  resources.Base - filters are applied
+21:59:16.061 [main] INFO  resources.Base - products are selected
+22:01:16.977 [main] INFO  resources.Base - driver is initialised
+22:01:21.069 [main] INFO  resources.Base - Amazon home page is opened
+22:01:39.357 [main] INFO  resources.Base - filters are applied
+22:01:44.416 [main] INFO  resources.Base - products are selected

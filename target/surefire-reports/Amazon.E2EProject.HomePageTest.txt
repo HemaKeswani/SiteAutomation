@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Amazon.E2EProject.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 36.04 sec <<< FAILURE!
+Window(Amazon.E2EProject.HomePageTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getWindowHandle()" because "this.driver" is null
+	at pageObjects.WindowHandles.getWindows(WindowHandles.java:18)
+	at Amazon.E2EProject.HomePageTest.Window(HomePageTest.java:66)
+

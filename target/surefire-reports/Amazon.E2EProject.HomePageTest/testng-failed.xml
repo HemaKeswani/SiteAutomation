@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon.E2EProject.HomePageTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Amazon.E2EProject.HomePageTest">
+        <methods>
+          <include name="Window"/>
+          <include name="search"/>
+          <include name="Initialise"/>
+          <include name="log"/>
+          <include name="checkout"/>
+          <include name="applyFilter"/>
+          <include name="afterTest"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- Amazon.E2EProject.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Amazon.E2EProject.HomePageTest] -->

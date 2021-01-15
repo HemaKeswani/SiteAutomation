@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Amazon.E2EProject.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Amazon.E2EProject.HomePageTest">
+        <methods>
+          <include name="Window"/>
+          <include name="search"/>
+          <include name="Initialise"/>
+          <include name="log"/>
+          <include name="checkout"/>
+          <include name="applyFilter"/>
+          <include name="select"/>
+        </methods>
+      </class> <!-- Amazon.E2EProject.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

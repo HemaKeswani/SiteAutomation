@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 51.241 s <<< FAILURE! - in TestSuite
+Amazon.E2EProject.HomePageTest.Window  Time elapsed: 14.607 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input id="add-to-cart-button" name="submit.add-to-cart" title="Add to Shopping Cart" data-hover="Select <b>__dims__</b> from the left<br> to add to Shopping Cart" class="a-button-input attach-dss-atc" type="button" value="Add to Cart" aria-labelledby="submit.add-to-cart-announce"> is not clickable at point (1369, 522). Other element would receive the click: <img id="detailImg" src="https://images-na.ssl-images-amazon.com/images/I/81onqHVeECL._SL1500_.jpg" style="position: absolute; left: -16.6px; top: 0px;">
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-P0M7KHBG', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\hemak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e4670e30acfcc6c86aaa6253aa632f5d
+	at Amazon.E2EProject.HomePageTest.Window(HomePageTest.java:78)
+
